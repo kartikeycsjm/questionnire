@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="w-full min-h-screen flex flex-col justify-between items-center">
+        <div className="w-full min-h-screen bg-[#000625] flex flex-col justify-between items-center">
           <Header />
           {children}
           <Footer />
